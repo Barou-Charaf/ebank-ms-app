@@ -16,6 +16,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gatwayService" />
+        <module name="discoveryService" />
         <module name="configService" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configService" options="-parameters" />
       <module name="customerService" options="-parameters" />
+      <module name="discoveryService" options="-parameters" />
       <module name="gatwayService" options="-parameters" />
     </option>
   </component>
