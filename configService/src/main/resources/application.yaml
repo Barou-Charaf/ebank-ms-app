@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Barou-Charaf/ebank-config-public-repo.git
+          default-label: main
+          clone-on-start: true
+
+server:
+  port: 8888
