@@ -1,5 +1,6 @@
 package org.example.customerservice.controllers;
 
+import org.example.customerservice.dtos.CreateCustomerDto;
 import org.example.customerservice.entity.Customer;
 import org.example.customerservice.repos.CustomerRepo;
 import org.example.customerservice.services.CustomerService;
@@ -34,7 +35,7 @@ public class CustomerController {
     }
 
     @PostMapping
-    public Customer save(@RequestBody Customer customer){
+    public Customer save(@RequestBody CreateCustomerDto customer){
         return customerService.createCustomer(customer);
     }
 

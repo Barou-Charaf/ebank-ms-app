@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/gatwayService/pom.xml" />
         <option value="$PROJECT_DIR$/discoveryService/pom.xml" />
         <option value="$PROJECT_DIR$/bnakAccountSerice/pom.xml" />
+        <option value="$PROJECT_DIR$/bankAccountService/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
